@@ -1,0 +1,604 @@
+0
+1
+00:00:00,300 --> 00:00:07,410
+To begin, open up your browser and head over to this you URL: repl.it/@appbrewery/day-1-printing-start
+1
+
+2
+00:00:07,710 --> 00:00:11,390
+repl.it/@appbrewery/day-1-printing-start
+2
+
+3
+00:00:11,760 --> 00:00:16,770
+Now if you didn't want to type all of that out and make some typos and errors and not get to the right
+3
+
+4
+00:00:16,770 --> 00:00:21,750
+place, then simply just head over to the course resources and click on the link there. It'll take you
+4
+
+5
+00:00:21,750 --> 00:00:23,070
+directly to this page.
+5
+
+6
+00:00:24,110 --> 00:00:29,780
+Now, once you've clicked on the link that takes you to the starting repl.it, you should see something
+6
+
+7
+00:00:29,780 --> 00:00:30,950
+that looks like this.
+7
+
+8
+00:00:31,310 --> 00:00:36,440
+And the first thing I want you to do is to go ahead and click on the fork button.
+8
+
+9
+00:00:37,220 --> 00:00:44,540
+What this is going to do is it's going to create a version of that same repl.it that you'll see me
+9
+
+10
+00:00:44,540 --> 00:00:45,890
+working through in the videos.
+10
+
+11
+00:00:46,160 --> 00:00:48,710
+But in this case, you'll be able to edit it.
+11
+
+12
+00:00:49,490 --> 00:00:53,690
+So if you want to save the work that you're doing, I recommend signing up to repl.it.
+12
+
+13
+00:00:53,690 --> 00:00:54,770
+It's completely free.
+13
+
+14
+00:00:54,780 --> 00:00:56,690
+You don't need any credit cards or anything.
+14
+
+15
+00:00:57,080 --> 00:01:03,290
+And then you'll have to see a record of all of the code that you've written throughout the course.
+15
+
+16
+00:01:03,830 --> 00:01:09,020
+In this course, you'll be coding along with me on repl.it and completing a whole bunch of interactive coding
+16
+
+17
+00:01:09,020 --> 00:01:11,310
+exercises in our repl.it classroom.
+17
+
+18
+00:01:11,600 --> 00:01:17,870
+Now, on day 15, when we level up to the intermediate stage, I'm going to be showing you how to install
+18
+
+19
+00:01:18,200 --> 00:01:20,420
+a local Python code editor.
+19
+
+20
+00:01:20,870 --> 00:01:24,850
+But until then, we want to get up and running and coding straight away.
+20
+
+21
+00:01:25,160 --> 00:01:27,970
+So we're going to be using repl.it for the first 14 days.
+21
+
+22
+00:01:28,430 --> 00:01:31,970
+So this video now and create your free repl.it account.
+22
+
+23
+00:01:34,520 --> 00:01:40,700
+And once you're signed in, then you can actually go ahead and edit the name of the repl.it or add a
+23
+
+24
+00:01:40,700 --> 00:01:46,070
+brief description and you'll be able to access it later on through the "My Repls" folder.
+24
+
+25
+00:01:46,580 --> 00:01:51,970
+Now, once you've done that, then let's go ahead and walk through some of the different parts of repl.it
+25
+
+26
+00:01:52,040 --> 00:01:55,970
+that you'll be using. First on the left hand side pane here
+26
+
+27
+00:01:55,970 --> 00:02:01,940
+you've got some files. And you can see the current file that's open is this python file here.
+27
+
+28
+00:02:02,360 --> 00:02:07,220
+And you can create new files or you can create new folders and later on will be using these features
+28
+
+29
+00:02:07,220 --> 00:02:08,810
+to organize our code.
+29
+
+30
+00:02:09,500 --> 00:02:14,450
+Now, the other part of the left hand side pane that's really useful is the settings tab here.
+30
+
+31
+00:02:14,960 --> 00:02:19,610
+And I generally prefer to code using a darker background.
+31
+
+32
+00:02:19,880 --> 00:02:25,640
+It's slightly easier on my eyes, especially when you're working at night and I recommend everybody
+32
+
+33
+00:02:25,640 --> 00:02:28,180
+to switch their font size up to large.
+33
+
+34
+00:02:28,670 --> 00:02:32,970
+This just makes it so much easier to identify mistakes and any typos you make.
+34
+
+35
+00:02:33,410 --> 00:02:38,450
+Now we're going to leave everything else as it is and you can click on the settings button to collapse
+35
+
+36
+00:02:38,450 --> 00:02:42,190
+that pane so that you end up with more space for writing code.
+36
+
+37
+00:02:42,740 --> 00:02:46,370
+And this area here is where you're going to be doing that.
+37
+
+38
+00:02:46,520 --> 00:02:48,730
+All of your code is going to go inside here.
+38
+
+39
+00:02:49,160 --> 00:02:55,730
+And once we're done with writing our code we'll click run and it will execute and the results of our
+39
+
+40
+00:02:55,730 --> 00:02:59,060
+code will come up over on the console in the right here.
+40
+
+41
+00:03:00,280 --> 00:03:06,640
+So these are some of the most important parts of repl.it, but the important thing is it allows us to just
+41
+
+42
+00:03:06,640 --> 00:03:07,650
+get started.
+42
+
+43
+00:03:08,110 --> 00:03:13,540
+Now, remember that the whole reason why we're learning to program is to be able to tell the computer
+43
+
+44
+00:03:13,570 --> 00:03:17,390
+what it needs to do and for it to follow our commands.
+44
+
+45
+00:03:17,860 --> 00:03:23,680
+So let's go ahead and tell the computer to do something, and we can do that by writing our first line
+45
+
+46
+00:03:23,680 --> 00:03:24,290
+of code.
+46
+
+47
+00:03:24,970 --> 00:03:30,400
+So in this case, I'm creating something called a print function, which is just the word print - all
+47
+
+48
+00:03:30,400 --> 00:03:33,930
+in lowercase - and then followed by a set of parentheses.
+48
+
+49
+00:03:34,360 --> 00:03:41,410
+Now, inside these parentheses, I'm going to tell it what I want it to print and hopefully it's going
+49
+
+50
+00:03:41,410 --> 00:03:44,010
+to output that inside our console.
+50
+
+51
+00:03:45,160 --> 00:03:50,250
+So I'm going to start off by writing the classic "Hello World" inside here.
+51
+
+52
+00:03:50,770 --> 00:03:54,190
+And then once you're ready, then go ahead and click "run".
+52
+
+53
+00:03:55,060 --> 00:04:00,940
+After a few seconds, you should see the computer follow your command, namely printing the words that
+53
+
+54
+00:04:00,940 --> 00:04:05,740
+you told it to print inside the console or the output area over here.
+54
+
+55
+00:04:06,730 --> 00:04:12,730
+And once it's done, it indicates that with the little orange arrow and the way that this command works
+55
+
+56
+00:04:12,730 --> 00:04:19,600
+is super simple, you have the keyword "print" followed by a set of parentheses, and then inside the
+56
+
+57
+00:04:19,600 --> 00:04:22,410
+parentheses, you tell it what you want it to print.
+57
+
+58
+00:04:23,140 --> 00:04:29,320
+And once you've inserted that, then when this line of code gets executed by the computer, you'll know
+58
+
+59
+00:04:29,320 --> 00:04:34,360
+to simply print or output the thing that you've placed in between the parentheses.
+59
+
+60
+00:04:36,850 --> 00:04:44,220
+But notice here that it's not just the word "Hello world!" exclamation mark that I've put inside my parentheses,
+60
+
+61
+00:04:44,800 --> 00:04:49,930
+I've also added some quotation marks or double quotes around the word.
+61
+
+62
+00:04:50,680 --> 00:04:57,910
+And the reason why I've done this is so that I can tell the computer that this bit here in between the
+62
+
+63
+00:04:57,910 --> 00:05:00,060
+double quotes is not code.
+63
+
+64
+00:05:00,190 --> 00:05:03,120
+It's not like print where it's supposed to do something.
+64
+
+65
+00:05:03,430 --> 00:05:07,300
+This is just some text that I've made up that I want it to print out.
+65
+
+66
+00:05:08,660 --> 00:05:16,100
+And these pieces of text in programming lingo is known as strings. And you can imagine it as almost
+66
+
+67
+00:05:16,100 --> 00:05:17,610
+like a pearl necklace, right?
+67
+
+68
+00:05:17,630 --> 00:05:20,300
+It's a string of characters.
+68
+
+69
+00:05:20,960 --> 00:05:30,050
+And what the double quotes do is they basically show the beginning and the end of that string of characters.
+69
+
+70
+00:05:31,360 --> 00:05:37,420
+So that means you have to be really careful when you're typing, for example, if I go ahead and I miss
+70
+
+71
+00:05:37,420 --> 00:05:39,950
+out the closing quote.
+71
+
+72
+00:05:40,480 --> 00:05:46,330
+Well, now you can see that there's some changes that have happened to our code already. Namely that
+72
+
+73
+00:05:46,330 --> 00:05:52,660
+the last parentheses, instead of being colored and white, like the opening parentheses or how it used
+73
+
+74
+00:05:52,660 --> 00:05:55,660
+to be, it's now colored in orange.
+74
+
+75
+00:05:55,840 --> 00:05:57,790
+And this is a subtle hint to us.
+75
+
+76
+00:05:58,210 --> 00:06:04,720
+You're going to get really attuned to these subtle hints because they are the clues that will tell you
+76
+
+77
+00:06:04,720 --> 00:06:06,480
+what might have gone wrong in your code.
+77
+
+78
+00:06:07,030 --> 00:06:10,540
+If I run this code as it is right now, it's going to break.
+78
+
+79
+00:06:10,930 --> 00:06:13,630
+It's going to give me a syntax error.
+79
+
+80
+00:06:14,200 --> 00:06:18,000
+And it says something that seems like it's completely non English.
+80
+
+81
+00:06:18,460 --> 00:06:21,160
+So how can we figure out what this means?
+81
+
+82
+00:06:21,970 --> 00:06:26,680
+Now, the thing I want you to know is that all programmers make mistakes.
+82
+
+83
+00:06:26,680 --> 00:06:34,810
+We all make lots of errors, like forgetting to add the double quotes at the end of the string or forgetting
+83
+
+84
+00:06:34,810 --> 00:06:37,930
+to add a closing parentheses.
+84
+
+85
+00:06:38,320 --> 00:06:41,250
+These things are just common errors because we're human.
+85
+
+86
+00:06:41,860 --> 00:06:48,310
+But the thing that differentiates great programmers is we're really good at figuring out what the problem
+86
+
+87
+00:06:48,310 --> 00:06:49,510
+is and how to fix it.
+87
+
+88
+00:06:50,020 --> 00:06:54,190
+So you can imagine that coding is just a whole bunch of problems that you have to solve.
+88
+
+89
+00:06:54,700 --> 00:07:01,450
+And in this case, when we get some sort of red text on the right and our code is not doing what we
+89
+
+90
+00:07:01,450 --> 00:07:08,050
+expected to do, then all we have to do is take this entire error message where it says something,
+90
+
+91
+00:07:08,050 --> 00:07:08,830
+something error.
+91
+
+92
+00:07:08,830 --> 00:07:14,350
+And this is some sort of message that we're supposed to understand and we're simply going to drop it
+92
+
+93
+00:07:14,350 --> 00:07:15,010
+into Google.
+93
+
+94
+00:07:15,430 --> 00:07:20,500
+And usually, the first thing you come across will be from a website called stackoverflow.com.
+94
+
+95
+00:07:20,950 --> 00:07:26,710
+And this is basically the Q&amp;A website that all developers will go to whenever something is wrong with
+95
+
+96
+00:07:26,710 --> 00:07:29,350
+their code or when they can't figure out how to do something.
+96
+
+97
+00:07:30,880 --> 00:07:38,500
+So if we click on this link, you can see that somebody else has also had this error and some kind souls
+97
+
+98
+00:07:38,500 --> 00:07:44,680
+have told us that the solution might be the fact that you're missing a double quote before the end of
+98
+
+99
+00:07:44,680 --> 00:07:45,180
+the line.
+99
+
+100
+00:07:45,550 --> 00:07:51,310
+So if we take a look back at our code, the code that generated this error looks like this.
+100
+
+101
+00:07:51,790 --> 00:07:56,290
+And indeed, we are missing a double quote at the end of our string.
+101
+
+102
+00:07:58,060 --> 00:08:03,340
+As you're learning to code, as you're going through your 100 days, I want you to become more and more
+102
+
+103
+00:08:03,340 --> 00:08:10,270
+attuned to the color 🎨 of your code, because one of the most helpful things that code editors such as
+103
+
+104
+00:08:10,510 --> 00:08:14,740
+this do for us is something called syntax highlighting.
+104
+
+105
+00:08:15,340 --> 00:08:21,880
+For example, when I was missing that double quote, it highlighted this entire thing in this orange
+105
+
+106
+00:08:21,880 --> 00:08:22,290
+color.
+106
+
+107
+00:08:22,780 --> 00:08:28,180
+And that is basically it telling us: "It seems like this whole thing is some text"
+107
+
+108
+00:08:28,540 --> 00:08:34,630
+It thinks that all of this is a string and that we're missing a closing parenthesis.
+108
+
+109
+00:08:36,100 --> 00:08:42,400
+So if you notice this and you're like "Wait, actually that's not right. This part should be orange"
+109
+
+110
+00:08:42,400 --> 00:08:44,380
+because this is what I want to be printed.
+110
+
+111
+00:08:44,740 --> 00:08:49,240
+But this part should match the color of the open brace, which is white.
+111
+
+112
+00:08:49,510 --> 00:08:51,200
+So there must be something wrong here.
+112
+
+113
+00:08:51,670 --> 00:08:58,240
+And indeed, if you have a look at the error message, it actually has a little caret sign right here
+113
+
+114
+00:08:58,510 --> 00:09:05,410
+showing you that there's something that's probably not right here and it might jog your memory that
+114
+
+115
+00:09:05,410 --> 00:09:08,740
+"Oh, yeah, I've forgotten a closing, double quote." 🤦‍♂️
+115
+
+116
+00:09:09,740 --> 00:09:13,090
+And now when we run our code, you'll see that it's good as new.
+116
+
+117
+00:09:13,690 --> 00:09:18,760
+So now it's your turn to try it out in a code challenge.
+117
+
+118
+00:09:19,180 --> 00:09:24,670
+Head over to the next lesson, sign up to our classroom and then I'll guide you through getting started
+118
+
+119
+00:09:24,850 --> 00:09:26,200
+on your first coding challenge.
+119
+
+120
+00:09:26,440 --> 00:09:28,050
+So all of that and more.
+120
+
+121
+00:09:28,240 --> 00:09:29,470
+I'll see you in the next lesson.
