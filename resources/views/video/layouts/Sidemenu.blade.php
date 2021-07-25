@@ -10,9 +10,8 @@
         <ul class="nav">
             @foreach(array_unique($folders) as $folder)
                 <li class="nav-item">
-                    <a class="nav-link with-sub" href="#"><span class="shape1"></span><span class="shape2"></span><i
-                            class="ti-folder sidemenu-icon"></i><span
-                            class="sidemenu-label">{{$folder}}</span><i class="angle fe fe-chevron-right"></i></a>
+                    <a class="nav-link with-sub" href="#"><span class="shape1"></span><span class="shape2"></span><span
+                            class="sidemenu-label">{{Str::limit($folder, 54, $end="...")}}</span><i class="angle fe fe-chevron-right"></i></a>
                     @foreach($items as $item)
                         @if(str_contains(\Illuminate\Support\Facades\Storage::url($item), $folder))
                             <ul class="nav-sub">
@@ -20,7 +19,7 @@
                                     @php
                                         $nameCorrect = str_replace(' ', '=', $folder . '&'.basename($item));
                                     @endphp
-                                    <a class="nav-sub-link" href="{{route('video.show', $nameCorrect)}}">{{basename($item)}}</a>
+                                    <a class="nav-sub-link" href="{{route('video.show', $nameCorrect)}}">{{Str::limit(basename($item), 45, $end="...")}}</a>
                                 </li>
                             </ul>
                         @endif
