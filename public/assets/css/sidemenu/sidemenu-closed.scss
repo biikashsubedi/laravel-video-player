@@ -78,7 +78,7 @@
 .main-footer {
 	transition: margin-left 0.3s ease;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 141.98px) {
 	.main-sidebar-show {
 		overflow: inherit;
 		.main-sidebar {
@@ -724,17 +724,17 @@
 	.nav-sub-link.with-sub i.angle {
 	  transform: rotate(0deg);
 	}
-  
+
 	.nav-sub-item.show {
 	  .nav-sub-link.with-sub i.angle {
 		transform: rotate(90deg);
 	  }
-  
+
 	  .nav-sub {
 		.nav-sub-link.with-sub i.angle {
 		  transform: rotate(0deg);
 		}
-  
+
 		.nav-sub-item.show .nav-sub-link.with-sub i.angle {
 		  transform: rotate(90deg);
 		}

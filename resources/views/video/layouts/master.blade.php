@@ -23,14 +23,14 @@
 
 
     <!-- Main Content-->
-    <div class="main-content side-content pt-0 " style="margin-top: 80px">
+    <div class="main-content side-content pt-0 " style="margin-top: 80px; ">
 
         <div class="container-fluid">
             <div class="inner-body">
 
 
                 <!-- row opened -->
-                <div class="row">
+                <div class="row" style="margin-left: 140px">
                     <div class="col-xl-12 col-lg-12 col-md-12">
                         <div class="card custom-card">
                             <div class="card-body">

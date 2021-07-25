@@ -1,6 +1,6 @@
 <div class="main-header side-header sticky">
 				<div class="container-fluid">
-					<div class="main-header-left">
+					<div class="main-header-left" style="margin-left: 180px">
 						<a class="main-header-menu-icon" href="#" id="mainSidebarToggle"><span></span></a>
 					</div>
 					<div class="main-header-center">
