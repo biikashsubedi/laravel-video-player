@@ -12,7 +12,7 @@
                 <li class="nav-item">
                     <a class="nav-link with-sub" href="#" title="{{$folder}}"><span class="shape1"></span><span class="shape2"></span><i class="ti-folder"></i><span
                             class="sidemenu-label">{{Str::limit(' '.$folder, 50, $end="...")}}</span><i class="angle fe fe-chevron-right"></i></a>
-                    @foreach($items as $item)
+                    @foreach($items as $key=>$item)
                         @if(str_contains(\Illuminate\Support\Facades\Storage::url($item), $folder))
                             <ul class="nav-sub">
                                 <li class="nav-sub-item">
