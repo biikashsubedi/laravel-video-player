@@ -10,8 +10,8 @@
         <ul class="nav">
             @foreach(array_unique($folders) as $folder)
                 <li class="nav-item">
-                    <a class="nav-link with-sub" href="#"><span class="shape1"></span><span class="shape2"></span><i class="ti-folder"></i><span
-                            class="sidemenu-label">{{Str::limit(' '.$folder, 55, $end="...")}}</span><i class="angle fe fe-chevron-right"></i></a>
+                    <a class="nav-link with-sub" href="#" title="{{$folder}}"><span class="shape1"></span><span class="shape2"></span><i class="ti-folder"></i><span
+                            class="sidemenu-label">{{Str::limit(' '.$folder, 50, $end="...")}}</span><i class="angle fe fe-chevron-right"></i></a>
                     @foreach($items as $item)
                         @if(str_contains(\Illuminate\Support\Facades\Storage::url($item), $folder))
                             <ul class="nav-sub">
